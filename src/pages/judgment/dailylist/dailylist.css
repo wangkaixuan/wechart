@@ -1,0 +1,45 @@
+.dailylist_box {
+
+}
+.daily_item {
+    display: block;
+    /*height: 88px;*/
+    border-bottom: 1px solid #E6E6E6;
+}
+.daily_log {
+    height: 88px;
+    padding: 0 30px;
+}
+.arrow_icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url('../../../assets/images/judgment/arrow_right.svg') no-repeat;
+    background-size: 100%;
+}
+.log_icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url('../../../assets/images/judgment/log_icon.svg') no-repeat;
+    background-size: 100%;
+    margin: 0px 32px 0px 12px;
+}
+.daily_txt {
+    display: inline-block;
+    color: #333;
+    font-size: 36px;
+}
+.nodata_box {
+    color: #5090F1;
+    font-size: 36px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: #EDF3FD;
+    padding: 30px 94px;
+    border-radius: 8px;
+}

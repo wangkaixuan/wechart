@@ -1,0 +1,104 @@
+.openapply_box {
+    background: url('../../../assets/images/judgment/apply_bg.svg') no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.title {
+    height: 67px;
+    line-height: 67px;
+    color: #072B49;
+    font-size: 48px;
+    padding: 67px 0 56px 0;
+    text-align: center;
+}
+.open_item {
+    width: 690px;
+    max-width: 690px;
+    height: 88px;
+    /*修改光标高度*/
+    line-height: 48px;
+    margin: 0 auto 60px;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+    background: #fff;
+    border: 1px solid #DCDFE6;/*no*/
+    border-radius: 8px;
+    padding: 20px 20px;
+    color: #333;
+    font-size: 36px;
+    /*修改光标颜色*/
+    caret-color: #999;
+    white-space:nowrap;
+    overflow: auto;
+}
+.open_item:empty::before {
+    display: block;
+    content: attr(placeholder);
+    color: #999;
+    font-size: 36px;
+}
+.open_item:focus:before{
+    content: none;
+}
+.open_input {
+    display: block;
+    width: 690px;
+    height: 88px;
+    border-radius: 8px;
+    border: 1px solid #DCDFE6;/*no*/
+    padding: 10px 20px;
+    color: #333;
+    font-size: 36px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    resize: none;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+    -webkit-user-select: auto;
+    /*解决ios手机中input输入框光标过长的问题*/
+    line-height: 60px;
+}
+.err {
+    width: 690px;
+    height: 60px;
+    line-height: 60px;
+    color: #E65441;
+    font-size: 20px;
+    margin: -60px auto 0;
+    padding-left: 20px;
+}
+.btn_box {
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 200px;
+}
+.btn_box a {
+    display: block;
+}
+.sure_btn {
+    width: 420px;
+    height: 88px;
+    line-height: 88px;
+    background: #5090F1;
+    border-radius: 8px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 36px;
+}
+.cancle_btn {
+    width: 420px;
+    height: 88px;
+    line-height: 88px;
+    color: #999;
+    font-size: 36px;
+    margin: 40px auto 60px;
+}

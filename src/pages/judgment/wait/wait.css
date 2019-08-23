@@ -1,0 +1,46 @@
+.applywait_box {
+    background: url('../../../assets/images/judgment/apply_bg.svg') no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.title {
+    height: 67px;
+    line-height: 67px;
+    color: #072B49;
+    font-size: 48px;
+    padding: 67px 0 20px 0;
+    text-align: center;
+}
+
+.wait_txt {
+    color: #072B49;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wait_tel {
+    color: #072B49;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+.btn_box {
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+}
+.sure_btn {
+    display: block;
+    width: 420px;
+    height: 88px;
+    line-height: 88px;
+    background: #5090F1;
+    border-radius: 8px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 36px;
+}

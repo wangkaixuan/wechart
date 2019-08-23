@@ -1,0 +1,44 @@
+.nobing_box {
+    background: url('../../../assets/images/judgment/apply_bg.svg') no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.img_bg {
+    width: 313px;
+    height: 92px;
+    margin: 60px auto 40px;
+    background: url('../../../assets/images/judgment/no_bind.png') no-repeat;
+    background-size: 100%;
+}
+.no_bind_txt {
+    color: #072B49;
+    font-size: 48px;
+    text-align: center;
+}
+.btn_box {
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+}
+.sure_btn {
+    display: block;
+    width: 420px;
+    height: 88px;
+    line-height: 88px;
+    background: #5090F1;
+    border-radius: 8px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 36px;
+}
+
+.no_bind_txts {
+    margin-top: 67px;
+    color: #072B49;
+    font-size: 48px;
+    text-align: center;
+}

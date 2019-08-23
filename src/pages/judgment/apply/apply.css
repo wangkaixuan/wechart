@@ -1,0 +1,121 @@
+.apply_box {
+
+}
+.apply_01 {
+    height: 605px;
+    background: url('../../../assets/images/judgment/apply_01.jpg') no-repeat;
+    background-size: 100%;
+}
+.apply_01 h3 {
+    color: #5090f1;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 105px 0 33px 68px;
+}
+.apply_01 p {
+    color: #cdd8ea;
+    font-size: 28px;
+    margin-left: 68px;
+    line-height: 50px;
+}
+.apply_02 {
+    padding: 40px 0 10px 0;
+}
+.title {
+    color: #333;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.line {
+    width: 196px;
+    height: 13px;
+    background: #5090F1;
+    margin: -8px auto 0;
+}
+.margin_top {
+    margin-top: 78px;
+}
+.icon_box {
+    padding: 0 82px 62px 30px;
+}
+.icon_img {
+    width: 100px;
+    height: 100px;
+}
+.icon_01 {
+    width: 104px;
+    height: 69px;
+    background: url('../../../assets/images/judgment/icon_01.png') no-repeat;
+    background-size: 100%;
+    margin-right: 33px;
+}
+.icon_02 {
+    background: url('../../../assets/images/judgment/icon_02.png') no-repeat;
+    background-size: 100%;
+    margin-right: 37px;
+}
+.icon_03 {
+    background: url('../../../assets/images/judgment/icon_03.png') no-repeat;
+    background-size: 100%;
+    margin-right: 37px;
+}
+.icon_04 {
+    width: 104px;
+    height: 98px;
+    background: url('../../../assets/images/judgment/icon_04.png') no-repeat;
+    background-size: 100%;
+    margin-right: 33px;
+}
+.info_box {
+
+}
+.info_title {
+    color: #333;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.info_desc {
+    color: #888;
+    font-size: 25px;
+    line-height: 38px;
+}
+.apply_03 {
+    height: 630px;
+    background: url('../../../assets/images/judgment/apply_02.jpg') no-repeat;
+    background-size: 100%;
+}
+.apply_03 .title {
+    color: #fff;
+    padding-top: 40px;
+}
+.apply_04 {
+    height: 696px;
+    background: url('../../../assets/images/judgment/apply_03.jpg') no-repeat;
+    background-size: 100%;
+    /*position: relative;*/
+}
+.open_btn {
+    display: block;
+    width: 420px;
+    height: 88px;
+    line-height: 88px;
+    background: #5090F1;
+    border-radius: 8px;
+    margin: 0 156px;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(80,144,241,0.8);
+    box-shadow: 0px 0px 24px 0px rgba(80,144,241,0.8);
+}
+body {
+    overflow:scroll;
+}
+/*隐藏滚轮*/
+::-webkit-scrollbar {
+    display: none;
+}

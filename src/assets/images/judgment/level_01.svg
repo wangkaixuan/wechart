@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="224px" viewBox="0 0 210 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>椭圆形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="210" height="224" rx="6"></rect>
+        <radialGradient cx="50.9877874%" cy="50%" fx="50.9877874%" fy="50%" r="50%" gradientTransform="translate(0.509878,0.500000),rotate(-90.000000),scale(1.000000,1.032745),translate(-0.509878,-0.500000)" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="微信-舆情研判-报告详情" transform="translate(-492.000000, -928.000000)">
+            <g id="分组-5" transform="translate(492.000000, 928.000000)">
+                <g id="椭圆形-4">
+                    <g id="椭圆形">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#F3C718" xlink:href="#path-1"></use>
+                        <circle fill-opacity="0.3" fill="url(#radialGradient-3)" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="208" cy="208" r="208"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,59 @@
+{
+  "name": "yqms-wx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/f2": "^3.4.0",
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "clipboard": "^2.0.4",
+    "core-js": "^2.6.5",
+    "es6-promise": "^4.2.6",
+    "fastclick": "^1.0.6",
+    "lib-flexible": "^0.3.2",
+    "moment": "^2.24.0",
+    "vant": "^2.0.9",
+    "vconsole": "^3.3.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.12.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "postcss-px2rem-exclude": "^0.0.6",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "4.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off",
+      "on-alert": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
