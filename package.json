@@ -16,7 +16,7 @@
     "es6-promise": "^4.2.6",
     "fastclick": "^1.0.6",
     "lib-flexible": "^0.3.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vant": "^2.0.9",
     "vconsole": "^3.3.2",
     "vue": "^2.6.10",
